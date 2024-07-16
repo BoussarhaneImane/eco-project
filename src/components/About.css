@@ -1,0 +1,56 @@
+
+.testimonial-cards {
+     display: flex;
+     justify-content: space-around;
+    
+   }
+   .testimonial-cards img{
+     border-radius: 50%;
+     width: 100px;
+   
+     height: 100px;
+   }
+   .testimonial-cards span{
+    display: flex;
+    margin-left: 140px;
+    position: relative;
+    bottom: 60px;
+    font-size: 20px;
+    color: rgb(255, 183, 14);
+   }
+   .testimonial-card {
+     cursor: pointer;
+     width: 300px;
+ 
+     border-radius: 10px;
+     padding: 20px;
+     margin-top: 20px;
+     transition: transform 0.3s; /* Ajoute une transition pour l'animation */
+   }
+   
+   .testimonial-card:hover {
+     transform: scale(1.05); /* Zoom sur la carte lors du survol */
+   }
+   
+   .testimonial-text {
+     font-size: 15px;
+     color:#fff;
+   }
+   .testimonial-author {
+     font-style: italic;
+     margin-top: 10px;
+     color: rgb(49, 47, 47);
+   }
+   
+   .testimonials-title {
+     text-align: center;
+     font-size:20px;
+  color: black;
+    margin-top: 60px;
+     margin-bottom: 40px;
+     width: 400px;
+     margin-left: 600px;
+     padding: 10px;
+     border-radius: 50px;
+     box-shadow: 0px 6px 15px rgba(195, 193, 193, 0.1);
+   }
