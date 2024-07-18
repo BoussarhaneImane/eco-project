@@ -27,7 +27,7 @@ export default function Login() {
         e.preventDefault();
         setLoading(true);
         try {
-            const response = await axios.post('http://localhost:3001/login', formData);
+            const response = await axios.post('https://backend-projecteco.onrender.com/login', formData);
             setSuccessMessage("You are successfully authenticated");
             setErrorMessage('');
             setFormData({

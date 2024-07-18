@@ -26,7 +26,7 @@ const Register = () => {
         e.preventDefault();
         setLoading(true); // Démarrer le chargement
         try {
-            const response = await axios.post('http://localhost:3001/register', formData);
+            const response = await axios.post('https://backend-projecteco.onrender.com/register', formData);
       
             setSuccessMessage(response.data.success);
             setErrorMessage('');
