@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 import Partners from "../../Partners/Partners";
 
 import StoreItem from "./StoreItem";
-import img1 from "./imgs/img1x.png";
+import img1 from './imgs/s1.png';
 import img2 from "./imgs/img2.png";
 import img3 from "./imgs/img4.png";
 import img4 from "./imgs/img18.png";
@@ -30,7 +30,8 @@ const Store = () => {
       id: 1,
       name: "Book",
       price: 10.99,
-      imgUrl: img1
+      imgUrl: img1,
+    
     },
     {
       id: 2,
