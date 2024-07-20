@@ -15,14 +15,7 @@ import img9 from "./imgs/m4.png";
 import img10 from "./imgs/s1.png";
 import img11 from "./imgs/s3.png";
 import img12 from "./imgs/s4.png";
-import { FaMobileAlt } from "react-icons/fa";
-import { IoHome } from "react-icons/io5";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaLocationArrow,
-} from "react-icons/fa6";
+
 const Store = () => {
   // Tableau d'objets contenant les données de chaque carte
   const items = [
